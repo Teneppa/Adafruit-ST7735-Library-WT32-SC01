@@ -1,4 +1,4 @@
-#include "Adafruit_ST7789 WT32.h"
+#include "Adafruit_ST7789_WT32.h"
 #include "Adafruit_ST77xx.h"
 
 // CONSTRUCTORS ************************************************************
