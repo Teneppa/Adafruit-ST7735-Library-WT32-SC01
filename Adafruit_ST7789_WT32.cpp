@@ -127,7 +127,7 @@ void Adafruit_ST7789_WT32::init(uint16_t width, uint16_t height, uint8_t mode)
   else
   {
     // 1.47", 1.69, 1.9", 2.0" displays (centered)
-    _rowstart = _rowstart2 = (int)((DISPLAY_HEIGHT - height) / 2)
+    _rowstart = _rowstart2 = (int)((DISPLAY_HEIGHT - height) / 2);
     _colstart = _colstart2 = (int)((DISPLAY_WIDTH - width) / 2);
   }
 
